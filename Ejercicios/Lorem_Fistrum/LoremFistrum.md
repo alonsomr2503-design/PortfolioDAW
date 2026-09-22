@@ -25,7 +25,7 @@ Ese que llega mamaar me cago en tus muelas al ataquerl va usté muy cargadoo con
 tiene musho peligro ahorarr caballo blanco caballo negroorl está la cosa muy malar
 papaar papaar.
 ```
-Apetecan ese que llega mamaar apetecan me cago en tus muelas. Ese que llega caballo
+Apetecan ese que llega mamaar apetecan me **_cago en tus muelas_**. Ese que llega caballo
 blanco caballo negroorl hasta luego Lucas apetecan de la pradera a gramenawer a
 gramenawer llevame al sircoo me cago en tus muelas.
 
