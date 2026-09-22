@@ -50,7 +50,7 @@ git remote add origin https://github.com/usuario/nombre_repositorio.git
 git push -u origin main
 ```
 
-2.2. Clonar un repositorio
+### 2.2. Clonar un repositorio
 
 ```
 git clone https://github.com/usuario/nombre_repositorio.git
@@ -58,7 +58,7 @@ cd nombre_repositorio
 ```
 Esto descarga una copia local completa del proyecto, incluido su historial.
 
-2.3. Crear y borrar carpetas
+### 2.3. Crear y borrar carpetas
 GitHub no admite carpetas vacías (Git no rastrea directorios sin archivos).
 
 Crear una carpeta desde la web:
@@ -90,7 +90,7 @@ git rm -r nombre_carpeta
 git commit -m "Eliminar carpeta"
 git push origin main
 ```
-2.4. Crear y editar un README
+### 2.4. Crear y editar un README
 El archivo README.md es la "portada" del repositorio: se muestra como descripción principal en la página del proyecto.
 
 Pasos:
@@ -111,14 +111,14 @@ Instrucciones...
 
 Ejemplos...   
 
-4.Pulsa Commit new file.
+ 4.Pulsa Commit new file.
 Enlaces relativos entre archivos:
 
 [Ver el diario de la Unidad 1](Diarios/Diario_UT1.md)
 
 No se necesitan permalinks para enlazar entre archivos; solo se usa #seccion para apuntar a un encabezado concreto dentro del mismo documento.
 
-2.5. Trabajar con ramas (branches)
+### 2.5. Trabajar con ramas (branches)
 Las ramas permiten desarrollar funcionalidades sin alterar la rama principal.
 
 1.Crear una rama:
@@ -141,7 +141,7 @@ Eliminar una rama local:
 git branch -d nombre_rama
 ```
 
-2.6. Hacer commits y push
+### 2.6. Hacer commits y push
 
 ```
 git add .
@@ -155,7 +155,7 @@ Usa imperativo presente: "Añadir" en vez de "Añadido".
 Sé específico: "Corregir error en el bucle for de la UT3".
 Máximo 50 caracteres en la primera línea.
 
-2.7. Sincronizar con pull
+### 2.7. Sincronizar con pull
 Antes de empujar cambios, actualiza tu copia local:
 
 ```
@@ -164,7 +164,7 @@ git pull origin main
 
 Esto descarga y fusiona los cambios remotos. Si hay conflictos, Git los marca en los archivos afectados y debes resolverlos manualmente antes de hacer commit.
 
-2.8. Pull Requests (PR)
+### 2.8. Pull Requests (PR)
 Un Pull Request solicita fusionar una rama en otra (normalmente main).
 
 Pasos desde la web:
@@ -176,11 +176,11 @@ Pulsa Create pull request.
 Añade título, descripción y revisores si es necesario.
 Cuando se apruebe, pulsa Merge pull request.
 
-2.9. Issues y Projects
+### 2.9. Issues y Projects
 Issues: sistema de seguimiento de errores y tareas. Se crean en la pestaña Issues → New issue.
 Projects: tableros tipo kanban para organizar Issues por estado (To do, In progress, Done).
 
-2.10. GitHub Actions (CI/CD básico)
+### 2.10. GitHub Actions (CI/CD básico)
 Permite ejecutar flujos de trabajo automáticos (tests, despliegues, etc.).
 
 Crea la carpeta .github/workflows/ en la raíz del repo.
@@ -196,12 +196,12 @@ jobs:
 
 Haz commit y push. Cada vez que se haga push, GitHub ejecutará el flujo.
 
-3. Conclusiones
+## 3. Conclusiones
 GitHub es una herramienta indispensable en el desarrollo de software actual. Su combinación de control de versiones distribuido, colaboración en equipo y automatización lo convierte en mucho más que un simple "alojamiento de código": es un entorno de trabajo completo.
 
 Las operaciones vistas en este informe —crear repositorios, gestionar carpetas, trabajar con ramas, hacer commits, resolver conflictos y automatizar con Actions— cubren el 90 % de las tareas diarias de un desarrollador. Dominarlas es el primer paso para trabajar de forma eficiente, ya sea en solitario o en equipo.
 
-4. Bibliografía
+## 4. Bibliografía
 GitHub Docs. (s. f.). GitHub Documentation. Recuperado de https://docs.github.com
 Chacon, S. & Straub, B. (2014). Pro Git (2.ª ed.). Apress. (disponible gratis en https://git-scm.com/book/es/v2)
 Markdown. (s. f.). CommonMark Specification. Recuperado de https://commonmark.org
