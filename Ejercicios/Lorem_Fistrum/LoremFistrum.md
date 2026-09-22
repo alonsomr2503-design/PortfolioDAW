@@ -33,6 +33,31 @@ Está la cosa muy malar papaar papaar se calle ustée benemeritaar diodeno no pu
 Tiene musho peligro te va a hasé pupitaa tiene musho peligro a peich
 
 
+# Al ataquerl (2)
+
+va usté muy cargadoo no puedor torpedo condemor.
+
+Tiene musho peligro
+
+apetecan jarl
+
+papaar papaar
+
+torpedo
+
+Llevame al sircoo se calle ustée.
+
+Ahorarr torpedo
+
+Te va a hasé pupitaa
+
+Ese pedazo de benemeritaar ahorarr.
+
+No puedor de la pradera
+
+1. no te digo trigo
+2. por no llamarte Rodrigor
+3. llevame al sircoo.
 
 
 
