@@ -1,2 +1,2 @@
 
-[Ejercicio Explicacion GiftHub](Ejercicios/GitHub_Explicacion_Ejercicio/GitHub.md)
+[Ejercicio Explicacion GiftHub](GitHub_Explicacion_Ejercicio/GitHub.md)
