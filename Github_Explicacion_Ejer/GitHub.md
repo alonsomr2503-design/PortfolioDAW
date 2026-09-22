@@ -95,9 +95,9 @@ El archivo README.md es la "portada" del repositorio: se muestra como descripci�
 
 Pasos:
 
-En la raíz del repositorio, pulsa Add file → Create new file.
-Nombra el archivo README.md.
-Redacta el contenido en Markdown:
+1.En la raíz del repositorio, pulsa Add file → Create new file.
+2.Nombra el archivo README.md.
+3.Redacta el contenido en Markdown:
 
 # Nombre del proyecto
 
@@ -110,3 +110,108 @@ Instrucciones...
 ## Uso
 
 Ejemplos...   
+
+4.Pulsa Commit new file.
+Enlaces relativos entre archivos:
+
+[Ver el diario de la Unidad 1](Diarios/Diario_UT1.md)
+
+No se necesitan permalinks para enlazar entre archivos; solo se usa #seccion para apuntar a un encabezado concreto dentro del mismo documento.
+
+2.5. Trabajar con ramas (branches)
+Las ramas permiten desarrollar funcionalidades sin alterar la rama principal.
+
+1.Crear una rama:
+
+```
+git checkout -b nombre_rama
+```
+
+o desde la web: en la pestaña Code, selecciona la rama en el desplegable → Create branch.
+
+Cambiar de rama:
+
+```
+git checkout main
+```
+
+Eliminar una rama local:
+
+```
+git branch -d nombre_rama
+```
+
+2.6. Hacer commits y push
+
+```
+git add .
+git commit -m "Mensaje descriptivo del cambio"
+git push origin main
+```
+
+Buenas prácticas para el mensaje:
+
+Usa imperativo presente: "Añadir" en vez de "Añadido".
+Sé específico: "Corregir error en el bucle for de la UT3".
+Máximo 50 caracteres en la primera línea.
+
+2.7. Sincronizar con pull
+Antes de empujar cambios, actualiza tu copia local:
+
+```
+git pull origin main
+```
+
+Esto descarga y fusiona los cambios remotos. Si hay conflictos, Git los marca en los archivos afectados y debes resolverlos manualmente antes de hacer commit.
+
+2.8. Pull Requests (PR)
+Un Pull Request solicita fusionar una rama en otra (normalmente main).
+
+Pasos desde la web:
+
+Ve a la pestaña Pull requests → New pull request.
+Selecciona la rama base (main) y la rama de comparación.
+Revisa la diferencia (diff).
+Pulsa Create pull request.
+Añade título, descripción y revisores si es necesario.
+Cuando se apruebe, pulsa Merge pull request.
+
+2.9. Issues y Projects
+Issues: sistema de seguimiento de errores y tareas. Se crean en la pestaña Issues → New issue.
+Projects: tableros tipo kanban para organizar Issues por estado (To do, In progress, Done).
+
+2.10. GitHub Actions (CI/CD básico)
+Permite ejecutar flujos de trabajo automáticos (tests, despliegues, etc.).
+
+Crea la carpeta .github/workflows/ en la raíz del repo.
+Añade un archivo YAML, por ejemplo ci.yml:
+name: CI
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Ejecutando pruebas..."
+
+Haz commit y push. Cada vez que se haga push, GitHub ejecutará el flujo.
+
+3. Conclusiones
+GitHub es una herramienta indispensable en el desarrollo de software actual. Su combinación de control de versiones distribuido, colaboración en equipo y automatización lo convierte en mucho más que un simple "alojamiento de código": es un entorno de trabajo completo.
+
+Las operaciones vistas en este informe —crear repositorios, gestionar carpetas, trabajar con ramas, hacer commits, resolver conflictos y automatizar con Actions— cubren el 90 % de las tareas diarias de un desarrollador. Dominarlas es el primer paso para trabajar de forma eficiente, ya sea en solitario o en equipo.
+
+4. Bibliografía
+GitHub Docs. (s. f.). GitHub Documentation. Recuperado de https://docs.github.com
+Chacon, S. & Straub, B. (2014). Pro Git (2.ª ed.). Apress. (disponible gratis en https://git-scm.com/book/es/v2)
+Markdown. (s. f.). CommonMark Specification. Recuperado de https://commonmark.org
+
+---
+
+### Notas sobre la redacción
+
+- **Título y autor** van al principio, como en un informe académico.
+- La **introducción** contextualiza qué es GitHub y qué se va a ver, tal como pide el enunciado.
+- Cada sección tiene **pasos numerados** y, cuando aplica, **código** entre bloques ` ``` `.
+- Las **conclusiones** sintetizan lo aprendido sin repetir literalmente los pasos.
+- La **bibliografía** cita fuentes reales y accesibles.
