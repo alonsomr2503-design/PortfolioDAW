@@ -48,15 +48,4 @@ git commit -m "Primer commit"
 git branch -M main
 git remote add origin https://github.com/usuario/nombre_repositorio.git
 git push -u origin main
-
-2.2. Clonar un repositorio
-git clone https://github.com/usuario/nombre_repositorio.git
-cd nombre_repositorio
-
-Esto descarga una copia local completa del proyecto, incluido su historial.
-
-2.2. Clonar un repositorio
-git clone https://github.com/usuario/nombre_repositorio.git
-cd nombre_repositorio
-
-Esto descarga una copia local completa del proyecto, incluido su historial.
+```
