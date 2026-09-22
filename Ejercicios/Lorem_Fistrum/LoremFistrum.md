@@ -1,6 +1,6 @@
 # **Lorem fistrum**
 
-> *benemeritaar no puedor caballo blanco caballo negroorl la caidita.*
+*benemeritaar no puedor caballo blanco caballo negroorl la caidita.*
 
 ---
 
@@ -9,6 +9,9 @@
 **Qué dise usteer** no te digo trigo por no llamarte Rodrigor
 
 **benemeritaar sexuarl.** *Sexuarl a gramenawer a peich*
+
+<img width="763" height="473" alt="image" src="https://github.com/user-attachments/assets/eb211eaa-bcc4-40b1-9f4e-cb26676bc6d3" />
+
 
 > **Se calle ustée ahorarr ahorarr.**
 > Diodeno ahorarr te voy a borrar el cerito no te digo trigo por no llamarte Rodrigor no puedor.
