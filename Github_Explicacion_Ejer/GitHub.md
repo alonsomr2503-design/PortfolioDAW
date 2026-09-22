@@ -40,7 +40,7 @@ En este informe se recogen, paso a paso, las operaciones más habituales que se 
 
 **Desde la terminal:**
 
-```bash
+```
 git init nombre_repositorio
 cd nombre_repositorio
 git add .
@@ -49,3 +49,64 @@ git branch -M main
 git remote add origin https://github.com/usuario/nombre_repositorio.git
 git push -u origin main
 ```
+
+2.2. Clonar un repositorio
+
+```
+git clone https://github.com/usuario/nombre_repositorio.git
+cd nombre_repositorio
+```
+Esto descarga una copia local completa del proyecto, incluido su historial.
+
+2.3. Crear y borrar carpetas
+GitHub no admite carpetas vacías (Git no rastrea directorios sin archivos).
+
+Crear una carpeta desde la web:
+
+En el repositorio, pulsa Add file → Create new file.
+En el campo de nombre, escribe carpeta/nombre_archivo.md.
+Añade contenido y pulsa Commit new file.
+Crear desde la terminal:
+
+```
+mkdir docs
+touch docs/.gitkeep
+git add docs/
+git commit -m "Añadir carpeta docs"
+git push origin main
+```
+
+El archivo .gitkeep es una convención para forzar que Git rastree la carpeta vacía.
+
+Borrar una carpeta desde la web:
+
+Navega hasta la carpeta.
+Pulsa el menú … → Delete directory.
+Confirma con Commit changes.
+Borrar desde la terminal:
+
+```
+git rm -r nombre_carpeta
+git commit -m "Eliminar carpeta"
+git push origin main
+```
+2.4. Crear y editar un README
+El archivo README.md es la "portada" del repositorio: se muestra como descripción principal en la página del proyecto.
+
+Pasos:
+
+En la raíz del repositorio, pulsa Add file → Create new file.
+Nombra el archivo README.md.
+Redacta el contenido en Markdown:
+
+# Nombre del proyecto
+
+Descripción breve.
+
+## Instalación
+
+Instrucciones...
+
+## Uso
+
+Ejemplos...   
