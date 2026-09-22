@@ -29,6 +29,8 @@ Apetecan ese que llega mamaar apetecan me **_cago en tus muelas_**. Ese que lleg
 blanco caballo negroorl hasta luego Lucas apetecan de la pradera a gramenawer a
 gramenawer llevame al sircoo me cago en tus muelas.
 
+Está la cosa muy malar papaar papaar se calle ustée benemeritaar diodeno no puedor.
+Tiene musho peligro te va a hasé pupitaa tiene musho peligro a peich
 
 
 
