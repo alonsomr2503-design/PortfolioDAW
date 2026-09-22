@@ -29,14 +29,14 @@ En este informe se recogen, paso a paso, las operaciones más habituales que se 
 
 **Desde la web:**
 
-1. Inicia sesión en [github.com](https://github.com).
-2. Haz clic en el botón **+** (arriba a la derecha) → **New repository**.
-3. Rellena:
+#### 1. Inicia sesión en [github.com](https://github.com).
+#### 2. Haz clic en el botón **+** (arriba a la derecha) → **New repository**.
+#### 3. Rellena:
    - **Repository name:** nombre del proyecto.
    - **Description** (opcional).
    - **Public** o **Private**.
    - Marca **Add a README file** si quieres inicializarlo con un README.
-4. Pulsa **Create repository**.
+#### 4. Pulsa **Create repository**.
 
 **Desde la terminal:**
 
