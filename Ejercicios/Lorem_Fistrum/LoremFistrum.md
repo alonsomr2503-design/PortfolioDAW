@@ -29,6 +29,8 @@ Apetecan ese que llega mamaar apetecan me **_cago en tus muelas_**. Ese que lleg
 blanco caballo negroorl hasta luego Lucas apetecan de la pradera a gramenawer a
 gramenawer llevame al sircoo me cago en tus muelas.
 
+<img width="763" height="473" alt="image" src="https://github.com/user-attachments/assets/6401aafb-041d-4779-b178-c78063757e07" />
+
 Está la cosa muy malar papaar papaar se calle ustée benemeritaar diodeno no puedor.
 Tiene musho peligro te va a hasé pupitaa tiene musho peligro a peich
 
@@ -58,9 +60,3 @@ No puedor de la pradera
 1. no te digo trigo
 2. por no llamarte Rodrigor
 3. llevame al sircoo.
-
-
-
-
-<img width="763" height="473" alt="image" src="https://github.com/user-attachments/assets/6401aafb-041d-4779-b178-c78063757e07" />
-
