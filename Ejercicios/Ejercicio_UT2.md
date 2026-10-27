@@ -1,2 +1,2 @@
 
-## 1.[Ejercicio Iniciacion Virtualizacion](Ejercicios/Iniciación a la Virtualización/Ubuntu.md)
+## 1.[Ejercicio Iniciacion Virtualizacion]( Iniciación a la Virtualización/Ubuntu.md)
