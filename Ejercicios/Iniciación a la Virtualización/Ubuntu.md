@@ -1,3 +1,4 @@
+<img width="1919" height="1079" alt="02-docker-hello-world" src="https://github.com/user-attachments/assets/a813b6aa-aeae-484b-a230-111f7e215e8f" />
 # Informe técnico: Virtualización y contenedores con Ubuntu, Docker, Nginx y Tomcat
 
 **Autor:** Alonso Mariblanca
@@ -125,7 +126,10 @@ docker run hello-world
 3. El daemon creó un contenedor que ejecuta el programa de prueba.
 4. La salida se envió al terminal.
 
-![Resultado de docker run hello-world](img/02-docker-hello-world.png)
+<img width="1919" height="1079" alt="03-nginx-8080" src="https://github.com/user-attachments/assets/e7fa0d9c-0646-4905-b771-6a14e6d87685" />
+<img width="1919" height="1079" alt="03-nginx-8080" src="https://github.com/user-attachments/assets/e8d71202-806a-494f-9a1a-7c1607483880" />
+<img width="1919" height="1079" alt="02-docker-hello-world" src="https://github.com/user-attachments/assets/7f39be97-5b3c-4e98-968e-92336c5c5abe" />
+
 
 *Figura 2. Instalación completada y ejecución correcta de `docker run hello-world`.*
 
@@ -181,13 +185,14 @@ Debe mostrar dos contenedores en estado `Up`: `webserver` (puerto `8080->80`) y 
 
 **Nginx (servidor web):** la página *"Welcome to nginx!"* confirma que el servidor está instalado y respondiendo peticiones HTTP.
 
-![Nginx funcionando en localhost:8080](img/03-nginx-8080.png)
+<img width="1919" height="1079" alt="03-nginx-8080" src="https://github.com/user-attachments/assets/1ea039d2-64b4-4cb9-b4f7-ccd1b531df15" />
+
 
 *Figura 3. Servidor web Nginx accesible en `http://localhost:8080`.*
 
 **Tomcat (servidor de aplicaciones):** se muestra la página de inicio de **Apache Tomcat/11.0.27** con el mensaje de instalación correcta.
 
-![Tomcat funcionando en localhost:8081](img/04-tomcat-8081.png)
+<img width="1919" height="1079" alt="04-tomcat-8081" src="https://github.com/user-attachments/assets/7ea4b3ac-0a4e-48e4-81a0-445467470e4e" />
 
 *Figura 4. Servidor de aplicaciones Apache Tomcat 11.0.27 accesible en `http://localhost:8081`.*
 
