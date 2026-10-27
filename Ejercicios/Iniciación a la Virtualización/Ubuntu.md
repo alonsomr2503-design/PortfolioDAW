@@ -72,7 +72,8 @@ Las **Guest Additions** mejoran la integración entre anfitrión e invitado (res
 
 La VM `Ubuntu-DAW2DAW` aparece en estado **"Corriendo"** en VirtualBox y muestra la pantalla de inicio de sesión de Ubuntu con el usuario `vboxuser`.
 
-![Ubuntu 24.04 ejecutándose en VirtualBox (VM Ubuntu-DAW2DAW)](img/01-ubuntu-vm.png)
+<img width="1919" height="1079" alt="01-ubuntu-vm" src="https://github.com/user-attachments/assets/1326a97f-6965-4ea9-90e1-c7aaefbd3afe" />
+
 
 *Figura 1. Máquina virtual Ubuntu-DAW2DAW en ejecución en VirtualBox.*
 
