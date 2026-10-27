@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+  @file    buscaminas.html
+  @brief   Página principal del Buscaminas (tablero de 10x8 casillas con 10 minas).
+  @see     buscaminas.js   Lógica del juego (documentada con JSDoc).
+  @see     buscaminas.css  Estilos del tablero.
+  @note    Clic izquierdo: destapar. Clic derecho: poner/quitar bandera.
+           La tabla #tablero se rellena dinámicamente desde buscaminas.js.
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buscaminas.css">
+    <title>Buscaminas</title>
+</head>
+<body>
+    <h1>Buscaminas</h1>
+
+    <!-- Estado de la partida: mensaje y minas por marcar. -->
+    <p id="info">
+        <span id="mensaje"></span> |
+        Minas restantes: <span id="contador"></span>
+    </p>
+
+    <button id="reiniciar" type="button">Nueva partida</button>
+
+    <!-- Tablero: se construye desde JavaScript. -->
+    <table id="tablero"></table>
+
+    <!-- El script va al final del body para que la tabla ya exista al ejecutarse. -->
+    <script src="buscaminas.js"></script>
+</body>
+</html>
