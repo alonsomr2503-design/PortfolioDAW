@@ -1,4 +1,3 @@
-<img width="1919" height="1079" alt="02-docker-hello-world" src="https://github.com/user-attachments/assets/a813b6aa-aeae-484b-a230-111f7e215e8f" />
 # Informe técnico: Virtualización y contenedores con Ubuntu, Docker, Nginx y Tomcat
 
 **Autor:** Alonso Mariblanca
@@ -126,8 +125,7 @@ docker run hello-world
 3. El daemon creó un contenedor que ejecuta el programa de prueba.
 4. La salida se envió al terminal.
 
-<img width="1919" height="1079" alt="03-nginx-8080" src="https://github.com/user-attachments/assets/e7fa0d9c-0646-4905-b771-6a14e6d87685" />
-<img width="1919" height="1079" alt="03-nginx-8080" src="https://github.com/user-attachments/assets/e8d71202-806a-494f-9a1a-7c1607483880" />
+
 <img width="1919" height="1079" alt="02-docker-hello-world" src="https://github.com/user-attachments/assets/7f39be97-5b3c-4e98-968e-92336c5c5abe" />
 
 
