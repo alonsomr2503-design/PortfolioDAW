@@ -294,8 +294,6 @@ RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
 **Consejo:** el código 301 (permanente) lo guardan en caché los navegadores. Durante las pruebas conviene usar `Redirect 302 / ...` para evitar quedarse con una redirección antigua, y cambiar a `permanent` cuando todo funcione.
 
 ![Redirección](<img width="1851" height="983" alt="image" src="https://github.com/user-attachments/assets/28a37bb2-196e-4ffd-8794-1b2aa7682742" />)
-![](<img width="1853" height="1002" alt="image" src="https://github.com/user-attachments/assets/d20c0aea-427e-47e1-8250-79c123a03ee5" />
-)
 
 *Figura 5. Configuración de la redirección en el puerto 80.*
 
@@ -339,11 +337,11 @@ Al abrir `https://gci.example.com`, el navegador muestra una **advertencia de ce
 
 *Figura 6. Advertencia por certificado autofirmado.*
 
-![Sitio por HTTPS](capturas/07_https_ok.png)
+![Sitio por HTTPS](<img width="1316" height="776" alt="image" src="https://github.com/user-attachments/assets/c66d9cfe-239d-480f-8ee0-7eb1a9150dfd" />)
 
 *Figura 7. Sitio cargado mediante `https://gci.example.com`.*
 
-![Detalle del certificado](capturas/08_detalle_certificado.png)
+![Detalle del certificado](<img width="1853" height="995" alt="image" src="https://github.com/user-attachments/assets/5fff774a-6501-414d-8a38-87c417b9fd8a" />)
 
 *Figura 8. Detalles del certificado en el navegador.*
 
