@@ -136,7 +136,7 @@ También se verifica que escucha en el puerto 80:
 sudo ss -tlnp | grep apache2
 ```
 
-![Estado de Apache2 activo](<img width="1868" height="1030" alt="image" src="https://github.com/user-attachments/assets/d648b4d0-991b-41d5-ae08-64e829cbb15c" />)
+![Estado de Apache2 activo](https://github.com/user-attachments/assets/d648b4d0-991b-41d5-ae08-64e829cbb15c)
 
 
 *Figura 1. Apache2 instalado y en ejecución.*
@@ -156,7 +156,7 @@ apache2ctl -M | grep -E "ssl|headers"
 
 Debe aparecer `ssl_module` y `headers_module`.
 
-![Módulos habilitados](<img width="1862" height="1038" alt="image" src="https://github.com/user-attachments/assets/8f51b7ff-baf9-49f5-b867-fa01dfbf0fab" />)
+![Módulos habilitados](https://github.com/user-attachments/assets/8f51b7ff-baf9-49f5-b867-fa01dfbf0fab)
 
 *Figura 2. Módulos `ssl` y `headers` habilitados.*
 
@@ -198,7 +198,7 @@ Se comprueba el contenido del certificado:
 openssl x509 -in /etc/ssl/certs/gci-selfsigned.crt -noout -subject -dates -ext subjectAltName
 ```
 
-![Generación del certificado](<img width="1860" height="1014" alt="image" src="https://github.com/user-attachments/assets/c1cba015-c0a7-43ba-9f55-50e94d757de8" />)
+![Generación del certificado](https://github.com/user-attachments/assets/c1cba015-c0a7-43ba-9f55-50e94d757de8)
 
 *Figura 3. Generación y comprobación del certificado autofirmado.*
 
@@ -266,7 +266,7 @@ Si el cortafuegos UFW estuviera activo, hay que permitir el tráfico:
 sudo ufw allow 'Apache Full'
 ```
 
-![VirtualHost SSL](<img width="1853" height="623" alt="image" src="https://github.com/user-attachments/assets/8e0452bf-b991-4b06-9ab8-4b29ab854e7c" />)
+![VirtualHost SSL](https://github.com/user-attachments/assets/8e0452bf-b991-4b06-9ab8-4b29ab854e7c)
 
 *Figura 4. Contenido de `gci-ssl.conf` y resultado de `configtest`.*
 
@@ -293,7 +293,7 @@ RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
 
 **Consejo:** el código 301 (permanente) lo guardan en caché los navegadores. Durante las pruebas conviene usar `Redirect 302 / ...` para evitar quedarse con una redirección antigua, y cambiar a `permanent` cuando todo funcione.
 
-![Redirección](<img width="1851" height="983" alt="image" src="https://github.com/user-attachments/assets/28a37bb2-196e-4ffd-8794-1b2aa7682742" />)
+![Redirección](https://github.com/user-attachments/assets/28a37bb2-196e-4ffd-8794-1b2aa7682742)
 
 *Figura 5. Configuración de la redirección en el puerto 80.*
 
@@ -333,15 +333,15 @@ Como `example.com` es un dominio que no apunta al servidor, en el equipo cliente
 
 Al abrir `https://gci.example.com`, el navegador muestra una **advertencia de certificado no confiable**, comportamiento esperado en un certificado autofirmado, ya que ninguna CA conocida lo ha firmado. Tras aceptar la excepción, se carga la web personalizada y se puede consultar el certificado desde el icono del candado.
 
-![Advertencia del navegador](<img width="916" height="357" alt="image" src="https://github.com/user-attachments/assets/79b64bd9-23cf-407d-a8cf-bcaf26b3949e" />)
+![Advertencia del navegador](https://github.com/user-attachments/assets/79b64bd9-23cf-407d-a8cf-bcaf26b3949e)
 
 *Figura 6. Advertencia por certificado autofirmado.*
 
-![Sitio por HTTPS](<img width="1316" height="776" alt="image" src="https://github.com/user-attachments/assets/c66d9cfe-239d-480f-8ee0-7eb1a9150dfd" />)
+![Sitio por HTTPS](https://github.com/user-attachments/assets/c66d9cfe-239d-480f-8ee0-7eb1a9150dfd)
 
 *Figura 7. Sitio cargado mediante `https://gci.example.com`.*
 
-![Detalle del certificado](<img width="1853" height="995" alt="image" src="https://github.com/user-attachments/assets/5fff774a-6501-414d-8a38-87c417b9fd8a" />)
+![Detalle del certificado](https://github.com/user-attachments/assets/5fff774a-6501-414d-8a38-87c417b9fd8a)
 
 *Figura 8. Detalles del certificado en el navegador.*
 
